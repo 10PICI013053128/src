@@ -1,0 +1,177 @@
+1) List 10 freedom fighters of India
+--------------------------------------
+
+ubuntu@ubuntu:~/Final_python_project1$ python main.py -n name -t 10 -r india -f freedomfighters
+Enter the number of entries to be made in the database
+100
+The amount of time taken to build the database:  0.03  seconds.
+List of names of  10  freedom fighters:
+NAMES:
+
+Avinash K Bose
+Roopa A Sharma
+Roopa T Sharma
+Krishna A Gandhi
+Krishna B Gupta
+Pooja I Murthy
+Ayesha D Das
+Ram P Lal
+Roopa Kumar Singh
+Suraj N Bhat
+
+Time taken for the query to be executed: 0.0  seconds
+
+=========================================================================================================
+
+2) List the freedom fighters of southern India
+-----------------------------------------------
+
+ubuntu@ubuntu:~/Final_python_project1$ python main.py -n name -r southindia -f freedomfighters
+Enter the number of entries to be made in the database
+10
+The amount of time taken to build the database:  0.01  seconds.
+The names of all freedom fighters of Southern india are:
+NAMES & Region:
+
+Krishna A Iyer 			
+southindia 
+
+Suraj I Gupta 			
+southindia 
+
+Deepti T Tagore 			
+southindia 
+
+Krishna R Singh 			
+southindia 
+
+Meghana D Bose 			
+southindia 
+
+Time taken for the query to be executed: 0.0  seconds
+
+=========================================================================================================
+
+3) List the freedom fighters of India and their achievements
+--------------------------------------------------------------
+
+ubuntu@ubuntu:~/Final_python_project1$ python main.py -n name -a achievements -t 5 -r india -f freedomfighters
+Enter the number of entries to be made in the database
+10
+The amount of time taken to build the database:  0.0  seconds.
+List of freedom fighters of India and their achievements are:
+NAMES & ACHIEVEMENTS:
+
+Geetha V Naidu 			
+Talent Award; 
+
+Geetha N Lal 			
+Formed the Constitution of India;Best Ruler;Free Democratic India; 
+
+Ram N Gandhi 			
+Best Ruler;Ranjit Award;Bravery Award; 
+
+Ram I Bose 			
+Patriotic Award; 
+
+Madhur D Das 			
+Best Fighter Award;Talent Award;Gold Award;Bravery Award;Patriotic Award; 
+
+Time taken for the query to be executed: 0.0  seconds
+
+=========================================================================================================
+
+4) List the female freedom fighters of India
+---------------------------------------------
+
+ubuntu@ubuntu:~/Final_python_project1$ python main.py -n name -g female -f freedomfighters
+Enter the number of entries to be made in the database
+10
+The amount of time taken to build the database:  0.01  seconds.
+The names of the female freedom fighters are:
+NAMES & GENDER:
+
+Meghana P Sharma 			
+female 
+
+Meghana P Tagore 			
+female 
+
+Meghana V Murthy 			
+female 
+
+Geetha D Singh 			
+female 
+
+Ayesha Kumar Iyer 			
+female 
+
+Roopa T Lal 			
+female 
+
+Pooja K Agarwal 			
+female 
+
+Time taken for the query to be executed: 0.0  seconds
+
+=========================================================================================================
+
+5) Give the details of atleast 5 freedom fighters(birth, death, known for, other names)
+---------------------------------------------------------------------------------------
+
+ubuntu@ubuntu:~/Final_python_project1$ python main.py -d details -t 5 -f freedomfighters
+Enter the number of entries to be made in the database
+10
+The amount of time taken to build the database:  0.01  seconds.
+The details of  5  number of freedom fighters are:
+Name:  Suraj D Gandhi 
+Gender:  male 
+Birth Date:  20/2/1922 
+Death Date:  19/5/1961 
+Region:  northindia 
+Achievements:  Talent Award;Gold Award; 
+Other Names:  Babu; 
+
+
+Name:  Madhur R Das 
+Gender:  male 
+Birth Date:  3/1/1921 
+Death Date:  6/9/1965 
+Region:  northindia 
+Achievements:  Best Ruler;Free Democratic India;Archery Award;Free Democratic India;Talent Award; 
+Other Names:  Babu; 
+
+
+Name:  Deepti H Tagore 
+Gender:  female 
+Birth Date:  6/2/1902 
+Death Date:  12/7/1942 
+Region:  southindia 
+Achievements:  Best Fighter Award; 
+Other Names:  Mother Of the Nation;Nightingale of India; 
+
+
+Name:  Roopa I Agarwal 
+Gender:  female 
+Birth Date:  22/8/1902 
+Death Date:  17/8/1957 
+Region:  india 
+Achievements:  Best Ruler;Archery Award;Bravery Award; 
+Other Names:  Godmother; 
+
+
+Name:  Avinash A Singh 
+Gender:  male 
+Birth Date:  25/12/1903 
+Death Date:  3/11/1971 
+Region:  northindia 
+Achievements:  Patriotic Award; 
+Other Names:  Bapu; 
+
+
+Time taken for the query to be executed: 0.0  seconds
+
+=========================================================================================================
+
+
+
